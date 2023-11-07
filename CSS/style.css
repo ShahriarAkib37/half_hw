@@ -158,6 +158,7 @@ font-weight: 400;
     border: 1px solid white;
     background-color: white;
     margin-left: 20px ;
+    color: var(--purplecolor);
 
 }
 /* banner ends */
