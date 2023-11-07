@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primarycolor : #0f2f44;
+    --yellowcolor: #ffc712;
+    --purplecolor: #8484bf;
+    --mainfont: 'Ubuntu', sans-serif;
+    --2ndfonts: 'Abril Fatface', serif;
+    --3ndfont: 'Open Sans', sans-serif;
+
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: var(--mainfont);
+}
+
+a{
+    text-decoration: none;
+}
+.box_a{
+   
+    font-family: var(--mainfont);
+    font-weight: 500;
+    color: var(--primarycolor);
+    font-size: 20px;
+    padding: 16px 21px;
+    background-color: var(--yellowcolor);
+    display: inline-block;
+    border-radius: 6px;
+
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+.justify_evenly{
+    justify-content: space-between;
+}
+.align_center{
+    align-items: center;
+}
+/* header stars */
+header{
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 19px 0;
+}
+
+header .welcome{
+    width: 50%;
+}
+header .open{
+    width: 50%;
+    text-align: right;
+}
+
+/* header ends */
+/* nav bar stars */
+nav .logo {
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: black ;
+    font-weight: 500;
+    display: block;
+    font-size: 16px;
+    padding: 40px 19px;
+    transition: 0.4s;
+
+}
+nav .menu ul li:hover >a{
+    color: var(--yellowcolor);
+    background-color: #fff9e6;
+}
+
+nav .menu ul li span i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #888;
+    display: inline-block;
+    text-align: center;
+}
+/* nav bar ends */
+/* banner stars */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.banner_text{
+    width: 40%;
+    padding: 142px 0;
+}
+.banner_text h4{
+    font-family: var(--primarycolor);
+    font-weight: 300;
+    font-size: 50px;
+    color: var(--primarycolor);
+}
+.banner_text h1{
+    font-family: var(--2ndfonts);
+    font-size: 80px;
+    font-weight: 400;
+    color: var(--primarycolor);
+    line-height: 64px;
+
+}
+.banner_text h5{
+color: var(--purplecolor);
+font-size: 32px;
+letter-spacing: 8px;
+font-weight: 400;
+}
+.banner_text p{
+    font-family: var(--3ndfont);
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    margin: 31px 0;
+
+    
+}
+.banner_text .box_a{
+    color: white;
+    background-color: var(--purplecolor);
+    
+}
+.banner_text span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 20px ;
+
+}
+/* banner ends */
